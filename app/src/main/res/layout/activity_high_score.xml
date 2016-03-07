@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.packtpub.firstgame.HighScoreActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="High Score"
+        android:id="@+id/textHighScore"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Positie 1"
+        android:id="@+id/textHighScore1"
+        android:layout_below="@+id/textHighScore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Positie 2"
+        android:id="@+id/textHighScore2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Positie 3"
+        android:id="@+id/textHighScore3"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/textHighScore2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Positie 4"
+        android:id="@+id/textHighScore4"
+        android:layout_below="@+id/textHighScore3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Positie 5"
+        android:id="@+id/textHighScore5"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/textHighScore4"
+        android:layout_alignLeft="@+id/textHighScore4"
+        android:layout_alignStart="@+id/textHighScore4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="1"
+        android:id="@+id/textView9"
+        android:layout_alignTop="@+id/textHighScore1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="2"
+        android:id="@+id/textView10"
+        android:layout_alignTop="@+id/textHighScore2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="3"
+        android:id="@+id/textView11"
+        android:layout_above="@+id/textHighScore4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="4"
+        android:id="@+id/textView12"
+        android:layout_alignTop="@+id/textHighScore4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="5"
+        android:id="@+id/textView13"
+        android:layout_alignTop="@+id/textHighScore5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:id="@+id/buttonMenu1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Naam:"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/textView9"
+        android:layout_toLeftOf="@+id/textHighScore"
+        android:layout_toStartOf="@+id/textHighScore"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Level:"
+        android:id="@+id/textView5"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/textHighScore1"
+        android:layout_alignStart="@+id/textHighScore1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Piet"
+        android:id="@+id/textHsNaam1"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Piet"
+        android:id="@+id/textHsNaam4"
+        android:layout_alignBottom="@+id/textHighScore4"
+        android:layout_alignLeft="@+id/textHsNaam5"
+        android:layout_alignStart="@+id/textHsNaam5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Piet"
+        android:id="@+id/textHsNaam5"
+        android:layout_alignTop="@+id/textView13"
+        android:layout_alignLeft="@+id/textHsNaam1"
+        android:layout_alignStart="@+id/textHsNaam1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Piet"
+        android:id="@+id/textHsNaam3"
+        android:layout_alignBottom="@+id/textHighScore3"
+        android:layout_alignLeft="@+id/textHsNaam4"
+        android:layout_alignStart="@+id/textHsNaam4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Piet"
+        android:id="@+id/textHsNaam2"
+        android:layout_alignBottom="@+id/textHighScore2"
+        android:layout_alignLeft="@+id/textHsNaam1"
+        android:layout_alignStart="@+id/textHsNaam1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tijd:"
+        android:id="@+id/textView6"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignLeft="@+id/textTijd3"
+        android:layout_alignStart="@+id/textTijd3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textTijd1"
+        android:layout_alignTop="@+id/textHighScore1"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textTijd2"
+        android:layout_alignTop="@+id/textHighScore2"
+        android:layout_alignLeft="@+id/textTijd1"
+        android:layout_alignStart="@+id/textTijd1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textTijd3"
+        android:layout_alignTop="@+id/textHighScore3"
+        android:layout_toRightOf="@+id/textHighScore"
+        android:layout_toEndOf="@+id/textHighScore" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textTijd4"
+        android:layout_alignTop="@+id/textHighScore4"
+        android:layout_alignLeft="@+id/textTijd2"
+        android:layout_alignStart="@+id/textTijd2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textTijd5"
+        android:layout_alignTop="@+id/textHighScore5"
+        android:layout_toRightOf="@+id/textHighScore"
+        android:layout_toEndOf="@+id/textHighScore" />
+
+</RelativeLayout>
